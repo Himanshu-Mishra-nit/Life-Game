@@ -14,8 +14,7 @@ public class App {
 		Runtime current = Runtime.getRuntime();
 		current.addShutdownHook(new Begin());
 		
-		Controller controller = new Controller(new WorkServiceImpl());
-		controller.start();
+		
 	}
 	
 }
